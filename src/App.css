@@ -46,7 +46,7 @@
   /* z-index */
   --z-tooltip: 10;
   --z-fixed: 100;
-  --z-model: 1000;
+  --z-modal: 1000;
 }
 
 /* Responsive typography */
