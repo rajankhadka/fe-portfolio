@@ -24,13 +24,13 @@ function Contact() {
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
+          <h3 className="contact__title">Lets communicate</h3>
 
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gamil.com</span>
+              <span className="contact__card-data">virusmama619@gamil.com</span>
               <a href="mailto:virusmama619.com" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>{" "}
@@ -40,7 +40,7 @@ function Contact() {
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">999-9999-999</span>
+              <span className="contact__card-data">980-2563-366</span>
               <a
                 href="https://api.whatsapp.com/send?phone=9802563366&text=Hello, more information"
                 className="contact__button"
@@ -66,7 +66,7 @@ function Contact() {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Lets Work Together</h3>
 
           <form className="contact__form" ref={form} onSubmit={sendEmail}>
             <div className="contact__form-div">
@@ -101,7 +101,7 @@ function Contact() {
                 name="project"
                 cols={30}
                 rows={10}
-                placeholder="Write your project"
+                placeholder="Write your Message"
                 className="contact__form-input"
               />
             </div>

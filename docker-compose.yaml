@@ -1,0 +1,11 @@
+version: '3'
+services:
+  portfolio:
+    image: 'portfolio-image'
+    container_name: 'portfolio-container'
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      -  9005:9005
+    restart: always

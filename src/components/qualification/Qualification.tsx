@@ -9,7 +9,7 @@ function Qualification() {
   };
 
   return (
-    <section className="qualification section" id="portfolio">
+    <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personel journey</span>
 
@@ -18,7 +18,7 @@ function Qualification() {
           <div
             className={
               toggleTab === 1
-                ? "qualification__button qualification__active button--flex"
+                ? "qualification__button qualification__active button--flex qualification__button-active"
                 : "qualification__button button--flex"
             }
             onClick={() => toggleHandler(1)}
@@ -30,7 +30,7 @@ function Qualification() {
           <div
             className={
               toggleTab === 2
-                ? "qualification__button qualification__active button--flex"
+                ? "qualification__button qualification__active button--flex qualification__button-active"
                 : "qualification__button button--flex"
             }
             onClick={() => toggleHandler(2)}
@@ -50,13 +50,13 @@ function Qualification() {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
+                <h3 className="qualification__title">
+                  Bachelor in Computer Engineer
+                </h3>
+                <span className="qualification__subtitle">TU - Kathmandu</span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2016 - 2021
                 </div>
               </div>
 
@@ -73,50 +73,28 @@ function Qualification() {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
+                <h3 className="qualification__title">+2 Science</h3>
+                <span className="qualification__subtitle">SHA - Surkhet</span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2014 - 2016
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developement</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
+                <h3 className="qualification__title">SLC</h3>
+                <span className="qualification__subtitle">SHA - Surkhet</span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2014
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
-                </div>
               </div>
             </div>
           </div>
@@ -130,13 +108,15 @@ function Qualification() {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">
+                  Software Engineer, Intern
+                </h3>
                 <span className="qualification__subtitle">
-                  Microsoft - spain
+                  InfoDeveloper - Lalitpur
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
 
@@ -153,22 +133,28 @@ function Qualification() {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">Apple - Spain</span>
+                <h3 className="qualification__title">
+                  Software Engineer, Trainee
+                </h3>
+                <span className="qualification__subtitle">
+                  InfoDeveloper - Lalitpur
+                </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">Software Engineer, Jr.</h3>
+                <span className="qualification__subtitle">
+                  InfoDeveloper - Lalitpur
+                </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
               </div>
 

@@ -1,8 +1,8 @@
-.testimonial__container {
+.portfolio__container {
     width: 750px;
 }
 
-.testimonial__card {
+.portfolio__card {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.5rem 2rem;
@@ -10,20 +10,26 @@
     margin-bottom: var(--mb-3);
 }
 
-.testimonial__img {
+.portfolio__img {
     width: 60px;
-    border-radius: 3rem;
+    height: 60px;
+    border-radius: 50%;
     margin-bottom: var(--mb-1);
 }
 
-.testimonial__name {
+.portfolio__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-25);
 }
 
-.testimonial__description {
+.portfolio__description {
+    color: var(--title-color);
     font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
 }
 
 /* Swiper Class */
@@ -38,11 +44,21 @@
 /* BREAKPOINTS */
 /* FOR LARGE DEVICES */
 @media screen and (max-width: 992px) {
-    .testimonial__container {
+    .portfolio__container {
         width: initial;
     }
 
-    .testimonial__card {
+    .portfolio__card {
         padding: 1.25rem 1.5rem;
     }
+}
+
+.portfolio__button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.portfolio__description:hover .portfoliot__button-icon {
+    transform: translateX(00.25rem);
+    background-color: aqua;
 }

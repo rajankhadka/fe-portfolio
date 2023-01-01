@@ -61,15 +61,15 @@ function Header() {
 
             <li className="nav__item">
               <a
-                href="#services"
+                href="#project"
                 onClick={() => setActiveNav("#services")}
                 className={
-                  activeNav === "#services"
+                  activeNav === "#project"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i>Services
+                <i className="uil uil-briefcase-alt nav__icon"></i>Project
               </a>
             </li>
 

@@ -1,11 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { TypeAnimation } from "react-type-animation";
 
 function Data() {
+  // const [type, setType] = useState<string[]>([
+  //   "Backend Developer",
+  //   "Frontend Developer",
+  //   "FullStack Developer",
+  // ]);
+  // const [text, setText] = useState("R");
+  // const [subIdx, seTsubIdx] = useState(0);
+  // const [idx, setIdx] = useState(0);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     seTsubIdx((prevSubIdx) => {
+  //       if (subIdx >= type[0].length - 1) {
+  //         clearInterval(interval);
+  //         return subIdx;
+  //       }
+  //       return prevSubIdx + 1;
+  //     });
+  //   }, 500);
+  //   return () => {};
+  // }, []);
+
   return (
     <div className="home__data">
       <h1 className="home__title">
         {" "}
-        John Smith
+        Rajan Khadka
         <svg
           width="36"
           height="36"
@@ -57,10 +79,24 @@ function Data() {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Visual Designer</h3>
+      {/* <h3 className="home__subtitle">{type[0].slice(0, subIdx)}</h3> */}
+      <TypeAnimation
+        sequence={[
+          "Backend Developer",
+          1000,
+          "Frontend Developer",
+          1000,
+          "FullStack Developer",
+          1000,
+        ]}
+        wrapper="h3"
+        cursor={true}
+        repeat={Infinity}
+        className="home__subtitle"
+      />
       <p className="home__description">
-        I'm creative designer based in new york, and I'm very passionate and
-        dedicated to my work.
+        An independent, focused quick learner and self-motivated graduate
+        passionate to build innovative products and solving problems.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
