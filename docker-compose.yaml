@@ -9,3 +9,4 @@ services:
     ports:
       -  9005:9005
     restart: always
+    # command: [sh, -c , "apt update -y && apt install yarn"]

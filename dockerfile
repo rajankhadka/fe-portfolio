@@ -1,13 +1,12 @@
-FROM node:16.15.0
+FROM node:16-alpine
 
 WORKDIR /portfolio
 
-EXPOSE 9005
-
 COPY . .
 
-RUN npm i &&\
-    npm i -g serve &&\
-    npm run build
+RUN apk update && apk upgrade &&\
+    apk add xsel --no-cache && apk add yarn --no-cache &&\
+    yarn global add serve &&\
+    yarn  && yarn build
 
-ENTRYPOINT [ "serve", "-s build", "-p 9005" ]
+ENTRYPOINT [ "serve", "-s", "build", "-p", "9005"]
