@@ -114,8 +114,17 @@
 .home__scroll-arrow {
     font-size: 1.25rem;
     color: var(--title-color);
+    animation: arrow-down 2s ease infinite;
 }
 
+@keyframes arrow-down{
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(0.5rem);
+    }
+}
 
 /* BREAKPOINTS */
 /* For large devices */

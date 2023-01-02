@@ -10,6 +10,8 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/ScrollUp/ScrollUp";
 import Portfolio from "./components/portfolio/Portfolio";
+import { ToastContainer } from "react-toastify";
+import { Slide } from 'react-toastify';
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
       </main>
       <Footer />
       <ScrollUp />
+      <ToastContainer position="bottom-right" pauseOnHover={true} autoClose={3000} closeButton={true} transition={Slide} />
     </>
   );
 }

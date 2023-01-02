@@ -119,7 +119,7 @@ function Project() {
                 <li className="project__modal-service">
                   <i className="uil uil-check-circle project__modal-icon"></i>
                   <p className="project__modal-info">
-                    Burgernaut - Buger Designing and Order System
+                    Burgernaut - Burger Designing and Order System
                   </p>
                 </li>
               </ul>

@@ -56,7 +56,7 @@ function Qualification() {
                 <span className="qualification__subtitle">TU - Kathmandu</span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2016 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2015 - 2021
                 </div>
               </div>
 
@@ -77,7 +77,7 @@ function Qualification() {
                 <span className="qualification__subtitle">SHA - Surkhet</span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2014 - 2016
+                  <i className="uil uil-calendar-alt"></i> 2012 - 2014
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@ function Qualification() {
                 <span className="qualification__subtitle">SHA - Surkhet</span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2014
+                  <i className="uil uil-calendar-alt"></i> 2011
                 </div>
               </div>
 

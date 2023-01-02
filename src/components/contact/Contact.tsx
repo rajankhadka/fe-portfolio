@@ -1,6 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { toast } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
+
+
 
 function Contact() {
   const form = useRef(null);
@@ -13,7 +17,11 @@ function Contact() {
       "template_2xp0sc8",
       form.current!,
       "-4XfIBceU8YL8V5vk"
-    );
+    ).then(() => {
+      toast.dark('Mail Send Successfully');
+    }).catch(error => {
+      toast.error(error.message);
+    })
     e.currentTarget.reset();
   };
 
