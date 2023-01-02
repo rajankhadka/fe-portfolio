@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Rajan</h1>
+        <h1 className="footer__title">Rajan Khadka</h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
@@ -56,7 +56,7 @@ function Footer() {
         </div>
 
         <span className="footer__copy">
-          &#169; Crypticalcoder. All rigths reserved
+          &#169; VirusMama. All rigths reserved
         </span>
       </div>
     </footer>
