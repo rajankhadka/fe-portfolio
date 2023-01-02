@@ -109,14 +109,14 @@ function Qualification() {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Software Engineer, Intern
+                  Software Engineer, Jr.
                 </h3>
                 <span className="qualification__subtitle">
                   InfoDeveloper - Lalitpur
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
               </div>
 
@@ -148,13 +148,13 @@ function Qualification() {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Software Engineer, Jr.</h3>
+                <h3 className="qualification__title">Software Engineer, Intern</h3>
                 <span className="qualification__subtitle">
                   InfoDeveloper - Lalitpur
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
 
