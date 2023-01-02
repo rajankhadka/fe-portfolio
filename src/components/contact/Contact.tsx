@@ -18,11 +18,12 @@ function Contact() {
       form.current!,
       "-4XfIBceU8YL8V5vk"
     ).then(() => {
+      e.currentTarget.reset();
       toast.dark('Mail Send Successfully');
     }).catch(error => {
       toast.error(error.message);
-    })
-    e.currentTarget.reset();
+    });
+    
   };
 
   return (
